@@ -130,7 +130,6 @@ sub setup_installer {
     my ($self) = @_;
 
     $ENV{DZIL_PHASE} = 'setup_installer';
-    use DD; dd \%ENV;
 }
 
 sub before_archive {
