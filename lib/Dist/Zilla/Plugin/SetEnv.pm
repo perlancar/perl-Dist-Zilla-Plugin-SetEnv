@@ -232,10 +232,6 @@ Set to C<after_mint> at the "after mint" phase.
 
 Set to C<after_release> at the "after release" phase.
 
-=head2 DZIL_NAME => str
-
-This is set to 1 at the "before build" phase.
-
 =head2 DZIL_RELEASING => bool
 
 Included for completeness. This is not set by this plugin, but by L<Dist::Zilla>
